@@ -1394,7 +1394,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{color:#373D42}
 .navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle:focus{background-color:#373D42}
 .navbar-default{background-color:#8DC429;margin:0;border:0}
 .navbar-default .navbar-nav>li>a{color:#F4FBE8;padding-left:20px;padding-right:20px}
-.navbar-default .navbar-nav>.active>a,.navbar-default .navbar-nav>.active>a:focus{background-color:#6C9032;color:#fff}
+.navbar-default .navbar-nav>.active>a,.navbar-default .navbar-nav>.active>a:focus{background-color:transparent;color:#333}
 .navbar-default .navbar-nav>li>a:hover,.navbar-default .navbar-nav>.active>a:hover{background-color:#fff}
 .navbar-form .form-group{display:block}
 .navbar-form{margin-top:15px}
