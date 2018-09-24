@@ -6,7 +6,7 @@
 @media (max-width: 1000px) {
  	#banner {
 	 position: static !important ;
-   margin-top: 320px !important ;
+   margin-top: 35px !important ;
  	};
 
  	#wrap {
@@ -70,7 +70,7 @@ body {
 
 #insight_title {
 	font-size: 22px;
-  color:  #A0D26A;
+  color: #A0D26A;
 }
 
 #block_finder {
@@ -78,8 +78,8 @@ body {
 }
 
 #footer {
-      height: 75px;
-      color: #A0D26A;
+    height: 75px;
+    color: #A0D26A;
 }
 
 #links_container {
@@ -161,7 +161,7 @@ a.email:hover {
 }
 
 .btn-primary:hover {
-      background-color: #cab8e2 !important;
+    background-color: #cab8e2 !important;
     border: 2px solid #ccc !important;
 }
 
