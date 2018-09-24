@@ -10,8 +10,8 @@
 	<meta name="description" content="Groestlcoin Blockexplorer. Check your GRS transactions and blocks">
 	<link rel="shortcut icon" href="/img/icons/icon.png" type="image/png">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,400italic">
-	<link rel="stylesheet" href="/css/main.min.css">
-  <link rel="stylesheet" href="/css/guarda.css?v=1.1">
+	<link rel="stylesheet" href="/css/main.min.css?v=1.3">
+  <link rel="stylesheet" href="/css/guarda.css?v=1.2">
 </head>
 <body ng-cloak class="ng-cloak">
   <div>
@@ -43,28 +43,33 @@
 		<div class="navbar navbar-default navbar-fixed-top" data-ng-include="'/views/includes/header.html'" role='navigation'></div>
 		<section class="container" data-ng-view></section>
 	</div>
+
+
 	<div id="footer" role="navigation">
-        <div class="container" data-ng-controller="FooterController">
-      <span class="languages" ng-show="availableLanguages.0">
-          [
-          <a href="https://grsblocks.com">grsblocks.com</a>
-          ]
-        </span>
-        &nbsp;	
-        [
-        <a href="messages/verify" translate>verify message</a>
-        <span> &middot; </span>
-        <a href="tx/send" translate>broadcast transaction</a>
-        ]
-        <p>Donate GRS: FfGh8PCn5SCPD4yyHFJ8YqKNvPraZ7zBpv</p>
-           <a class="m10v pull-right email" target="_blank" href="mailto:grsblocks@gmail.com">grsblocks@gmail.com</a><br>
-					 <a class="pull-right links coin-link" href=" https://coincodex.com/crypto/groestlcoin/" target="_blank">
-		  </div>
+	    <div class="container" data-ng-controller="FooterController" id="footer_container" >
+	      <div class="links m20t pull-left" style="font-size: 13px;" id="links_container">
+	       <span class="languages" ng-show="availableLanguages.0">
+	          [
+	         <a href="https://grsblocks.com">grsblocks.com</a>
+	          ]
+	        </span>
+	        &nbsp;
+	        [
+	        <a href="messages/verify" translate>verify message</a>
+	        <span> &middot; </span>
+	        <a href="tx/send" translate>broadcast transaction</a>
+	        ]
+	         <p>Donate GRS: FfGh8PCn5SCPD4yyHFJ8YqKNvPraZ7zBpv</p>
+	      </div>
+	      <a class="m10v pull-right email" target="_blank" href="mailto:grsblocks@gmail.com">grsblocks@gmail.com</small></a><br>
+	      <a class="pull-right links coin-link" href="https://coincodex.com/crypto/groestlcoin/">https://coincodex.com/crypto/groestlcoin/</a>
+	</div>
+
 </div>
 	<script src="/socket.io/socket.io.js"></script>
 	<script src="/js/vendors.min.js"></script>
 	<script src="/js/angularjs-all.min.js"></script>
 	<script src="/js/main.min.js"></script>
-  <script src="https://widgets.coingecko.com/coingecko-coin-price-chart-widget.js"></script>
+  <script src="https://widgets.coingecko.com/coingecko-coin-price-marquee-widget.js"></script>
 </body>
 </html>
